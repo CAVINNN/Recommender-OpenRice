@@ -36,4 +36,4 @@ for row_index in range(rows):
                     rating[username][shop_name] = cell_val
 
 contentBased = ContentBased(rating, shop_names, shop_cates)
-print(contentBased.get_recommend('mabel90189'))
+print(contentBased.get_recommend('sindymelody'))
